@@ -15,7 +15,7 @@ func render (board []rendering.Coord) {
 
 func main() {
     //https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
-    board := rendering.CreateEmptyBoard(20, 10)
+    board := rendering.CreateEmptyBoard(50, 25)
     board = rendering.MutateRandomBoard(board)
 
     // GET UPDATE FROM GAME LOOP
