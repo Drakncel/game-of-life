@@ -1,7 +1,8 @@
 Conway's game of life in GoLang.
 
+docker-compose up
+
 TODO: 
-- Dockerize
 - Optimize for big table sizes
 - Provide 2D graphics
 - Use new rules to make the game infinite
